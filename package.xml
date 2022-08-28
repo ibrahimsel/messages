@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>muto_msgs</name>
+  <version>0.0.1</version>
+  <description>
+    ROS message definitions for the Muto.
+  </description>
+
+  <maintainer email="muto-dev@eclipse.org">Muto</maintainer>
+  <author email="muto-dev@eclipse.org">Muto</author>
+  <license>BSD</license>
+
+  <url type="website">https://github.com/eclipse-muto</url>
+  <url type="repository">https://github.com/eclipse-muto</url>
+  <url type="bugtracker">https://github.com/eclipse-muto</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+</package>
