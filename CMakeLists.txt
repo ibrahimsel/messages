@@ -25,7 +25,10 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   DIRECTORY msg
   FILES
+  CommandInput.msg
+  CommandOutput.msg
   MutoAction.msg
+  MutoActionMeta.msg
   MutoActionStamped.msg
   PluginResponse.msg
   PluginResponseStamped.msg
@@ -37,6 +40,7 @@ add_message_files(
 add_service_files(
    DIRECTORY srv
    FILES
+   CommandPlugin.srv
    ComposePlugin.srv
  )
 

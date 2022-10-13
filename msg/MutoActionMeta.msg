@@ -14,9 +14,6 @@
 #    Composiv.ai, Eteration A.S. - initial API and implementation
 #
 #
-# Timestamped  Actions (Stack Management)
 
-string context # device context info and parameters
-string method  # action type (i.e. active, kill, )
-string payload # Stringified version of JSON Stack Management Data
-MutoActionMeta meta # meta data such as response semantics
+string topic #  response topic
+string correlation  # async response correlation id
