@@ -1,0 +1,2 @@
+string path_to_download_relative_to_home_dir
+string launch_file_name
