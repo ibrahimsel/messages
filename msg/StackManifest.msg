@@ -6,3 +6,5 @@ string branch
 string launch_description_source
 string args
 string source
+string on_start
+string on_kill
