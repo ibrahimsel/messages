@@ -55,6 +55,7 @@ endif()
 
 find_package(rosidl_default_generators REQUIRED)
 
+
 rosidl_generate_interfaces(muto_msgs
  "msg/CommandInput.msg"
  "msg/CommandOutput.msg"
@@ -66,8 +67,11 @@ rosidl_generate_interfaces(muto_msgs
  "msg/StackManifest.msg"
  "msg/Thing.msg"
  "msg/ThingHeaders.msg"
+
  "srv/CommandPlugin.srv"
  "srv/ComposePlugin.srv"
+ "srv/NativePlugin.srv"
+ "srv/LaunchPlugin.srv"
  "srv/CoreTwin.srv"
 )
 

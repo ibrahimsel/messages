@@ -18,6 +18,9 @@
 #
 #
 
+bool start
 muto_msgs/PlanManifest input
 ---
 muto_msgs/PlanManifest output
+bool success
+string err_msg
