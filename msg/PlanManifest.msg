@@ -20,6 +20,4 @@
 
 string pipeline
 StackManifest current
-StackManifest next
-StackManifest planned
 PluginResponse result
