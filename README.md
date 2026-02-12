@@ -1,9 +1,10 @@
 # Muto Messages
 
-[![CI](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml/badge.svg)](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml)
-![ROS 2 Foxy](https://img.shields.io/badge/ROS%202-Foxy-blue)
-![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-blue)
-![ROS 2 Jazzy](https://img.shields.io/badge/ROS%202-Jazzy-blue)
+| ROS 2 Distro | Ubuntu | Python | Status |
+|---|---|---|---|
+| Foxy | 20.04 | 3.8 | [![Foxy](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml/badge.svg)](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml) |
+| Humble | 22.04 | 3.10 | [![Humble](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml/badge.svg)](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml) |
+| Jazzy | 24.04 | 3.12 | [![Jazzy](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml/badge.svg)](https://github.com/eclipse-muto/messages/actions/workflows/colcon-build.yml) |
 
 **Muto Messages** (`muto_msgs`) provides ROS 2 message and service definitions for inter-component communication including stack manifests, actions, commands, and plugin interfaces.
 
