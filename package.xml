@@ -5,7 +5,11 @@
   <version>0.42.0</version>
   <description>Eclipse Muto Messages - ROS 2 message and service definitions for inter-component communication including stack manifests, actions, commands, and plugin interfaces</description>
   <maintainer email="info@composiv.ai">Composiv</maintainer>
-  <license>Eclipse Public License v2.0</license>
+  <license file="LICENSE">EPL-2.0</license>
+
+  <url type="website">https://eclipse.dev/muto/</url>
+  <url type="repository">https://github.com/eclipse-muto/messages</url>
+  <url type="bugtracker">https://github.com/eclipse-muto/messages/issues</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
