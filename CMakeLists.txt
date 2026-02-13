@@ -70,7 +70,6 @@ rosidl_generate_interfaces(muto_msgs
 
   "srv/CommandPlugin.srv"
   "srv/ComposePlugin.srv"
-  "srv/NativePlugin.srv"
   "srv/ProvisionPlugin.srv"
   "srv/LaunchPlugin.srv"
   "srv/CoreTwin.srv"
