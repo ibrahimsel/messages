@@ -54,14 +54,20 @@ endif()
 
 
 find_package(rosidl_default_generators REQUIRED)
+find_package(builtin_interfaces REQUIRED)
 
 
 rosidl_generate_interfaces(muto_msgs
   "msg/CommandInput.msg"
   "msg/CommandOutput.msg"
+  "msg/DesiredState.msg"
   "msg/Gateway.msg"
+  "msg/GraphDrift.msg"
+  "msg/GraphEvent.msg"
+  "msg/GraphSnapshot.msg"
   "msg/MutoAction.msg"
   "msg/MutoActionMeta.msg"
+  "msg/NodeState.msg"
   "msg/PlanManifest.msg"
   "msg/PluginResponse.msg"
   "msg/StackManifest.msg"
@@ -70,9 +76,13 @@ rosidl_generate_interfaces(muto_msgs
 
   "srv/CommandPlugin.srv"
   "srv/ComposePlugin.srv"
-  "srv/ProvisionPlugin.srv"
+  "srv/GetGraphState.srv"
   "srv/LaunchPlugin.srv"
+  "srv/ProvisionPlugin.srv"
+  "srv/ReconcileNow.srv"
   "srv/CoreTwin.srv"
+
+  DEPENDENCIES builtin_interfaces
 )
 
 ament_package()

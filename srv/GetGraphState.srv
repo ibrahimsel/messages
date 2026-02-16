@@ -1,0 +1,8 @@
+# GetGraphState - On-demand graph query
+# Triggers an immediate probe when called.
+
+string stack_name
+---
+GraphSnapshot snapshot
+bool success
+string error_message
