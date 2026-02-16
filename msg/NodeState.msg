@@ -9,7 +9,7 @@
 # node's FQN matches an entry in the desired state set.
 
 string name
-string namespace
+string node_namespace
 string fully_qualified_name
 string package_name
 string executable
