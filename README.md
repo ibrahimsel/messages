@@ -2,8 +2,8 @@
 
 | ROS 2 Distro | Ubuntu | Python | Status |
 |---|---|---|---|
-| Humble | 22.04 | 3.10 | [![Humble](https://github.com/ibrahimsel/messages/actions/workflows/ci-humble.yml/badge.svg)](https://github.com/ibrahimsel/messages/actions/workflows/ci-humble.yml) |
-| Jazzy | 24.04 | 3.12 | [![Jazzy](https://github.com/ibrahimsel/messages/actions/workflows/ci-jazzy.yml/badge.svg)](https://github.com/ibrahimsel/messages/actions/workflows/ci-jazzy.yml) |
+| Humble | 22.04 | 3.10 | [![Humble](https://github.com/eclipse-muto/messages/actions/workflows/ci-humble.yml/badge.svg)](https://github.com/eclipse-muto/messages/actions/workflows/ci-humble.yml) |
+| Jazzy | 24.04 | 3.12 | [![Jazzy](https://github.com/eclipse-muto/messages/actions/workflows/ci-jazzy.yml/badge.svg)](https://github.com/eclipse-muto/messages/actions/workflows/ci-jazzy.yml) |
 
 **Muto Messages** (`muto_msgs`) provides ROS 2 message and service definitions for inter-component communication including stack manifests, actions, commands, and plugin interfaces.
 
