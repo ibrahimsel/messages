@@ -44,8 +44,8 @@ find_package(ament_cmake REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
-  # uncomment the line when a copyright and license is not present in all source files
-  #set(ament_cmake_copyright_FOUND TRUE)
+  # EPL-2.0 is not auto-detected by ament_copyright
+  set(ament_cmake_copyright_FOUND TRUE)
   # the following line skips cpplint (only works in a git repo)
   # uncomment the line when this package is not in a git repo
   #set(ament_cmake_cpplint_FOUND TRUE)
@@ -57,23 +57,22 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 rosidl_generate_interfaces(muto_msgs
- "msg/CommandInput.msg"
- "msg/CommandOutput.msg"
- "msg/Gateway.msg"
- "msg/MutoAction.msg"
- "msg/MutoActionMeta.msg"
- "msg/PlanManifest.msg"
- "msg/PluginResponse.msg"
- "msg/StackManifest.msg"
- "msg/Thing.msg"
- "msg/ThingHeaders.msg"
+  "msg/CommandInput.msg"
+  "msg/CommandOutput.msg"
+  "msg/Gateway.msg"
+  "msg/MutoAction.msg"
+  "msg/MutoActionMeta.msg"
+  "msg/PlanManifest.msg"
+  "msg/PluginResponse.msg"
+  "msg/StackManifest.msg"
+  "msg/Thing.msg"
+  "msg/ThingHeaders.msg"
 
- "srv/CommandPlugin.srv"
- "srv/ComposePlugin.srv"
- "srv/NativePlugin.srv"
- "srv/ProvisionPlugin.srv"
- "srv/LaunchPlugin.srv"
- "srv/CoreTwin.srv"
+  "srv/CommandPlugin.srv"
+  "srv/ComposePlugin.srv"
+  "srv/ProvisionPlugin.srv"
+  "srv/LaunchPlugin.srv"
+  "srv/CoreTwin.srv"
 )
 
 ament_package()
